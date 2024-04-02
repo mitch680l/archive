@@ -1,0 +1,17 @@
+STORE_BEGIN
+NAME
+Taco Bell
+ADDRESS
+56th Street Olathe, Kansas
+ITEM0
+10
+Burrito
+ITEM1
+10
+Taco
+ITEM2
+3
+Baja Blast
+ID
+0
+STORE_END

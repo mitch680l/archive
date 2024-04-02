@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Project1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Project1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Project1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Customer.cpp" />
+		<Unit filename="Customer.h" />
+		<Unit filename="Customers.txt" />
+		<Unit filename="FileIO.cpp" />
+		<Unit filename="FileIO.h" />
+		<Unit filename="Order.cpp" />
+		<Unit filename="Order.h" />
+		<Unit filename="Order.txt" />
+		<Unit filename="Orders.txt" />
+		<Unit filename="Restaurant.cpp" />
+		<Unit filename="Restaurant.h" />
+		<Unit filename="Restaurants.txt" />
+		<Unit filename="UIHelper.cpp" />
+		<Unit filename="UIHelper.h" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
